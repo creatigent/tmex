@@ -22,7 +22,6 @@ namespace tictactoe
                 var data = line.Split(' ');
                 var i1 = int.Parse(data[0]) -1;
                 var i2 = int.Parse(data[1]) -1;
-                //Console.WriteLine("{0} {1}", i1, i2);
 
                 if(player % 2 == 0)
                 {
